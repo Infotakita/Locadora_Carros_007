@@ -1,0 +1,19 @@
+{
+  "name": "locadora_carros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^5.3.3",
+    "handlebars": "^4.7.8",
+    "nodemon": "^1.10.2"
+  }
+}

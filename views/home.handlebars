@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Locadora de Carros</title>
+</head>
+<body>
+    <h1>Bem-vindo à Locadora de Carros: Lightning McQueen!</h1>
+    <p>Confira nossos carros disponíveis:</p>
+
+    <ul>
+        
+    {{#each carros}}
+        <li>
+            <a href="/carro/{{id}}">{{marca}} - {{modelo}} - R$ {{preco}}</a>
+        </li>
+    {{/each}}
+
+
+    </ul>
+</body>
+</html>
